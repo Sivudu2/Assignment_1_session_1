@@ -1,0 +1,7 @@
+import math as mt
+ 
+dmeter = float( input("Enter Diameter of sphere in cm: "))
+radius = float(dmeter/2)
+
+volume = (4/3 )* mt.pi* (radius**3)
+print(volume)

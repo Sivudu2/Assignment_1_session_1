@@ -1,0 +1,5 @@
+Fname= input("Enter your First Name")
+Sname = input("Enter your last Name")
+rFname = Fname[::-1]
+rSname =Sname[::-1]
+print(rFname+" "+rSname)
